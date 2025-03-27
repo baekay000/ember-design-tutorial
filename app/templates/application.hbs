@@ -1,7 +1,13 @@
 {{page-title "EmberDesignTutorial"}}
 
-{{outlet}}
-
-{{! The following component displays Ember's default welcome message. }}
-<WelcomePage />
-{{! Feel free to remove this! }}
+<main class="vh-100">
+  <Header class="bg-primary-subtle p-2">
+    <:center>
+      <p class="m-0">Ember Design Tutorial</p>
+    </:center>
+    <:right>
+      <ThemeSwitcher />
+    </:right>
+  </Header>
+  {{outlet}}
+</main>

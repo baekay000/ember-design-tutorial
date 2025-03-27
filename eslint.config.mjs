@@ -11,7 +11,6 @@ export default await merge(
     '/.node_modules.ember-try/',
   ]),
   eslint.rules.base(),
-  // eslint.rules.ember(),
   eslint.rules.js(),
   eslint.rules.gjs(),
   eslint.rules.scripts([
